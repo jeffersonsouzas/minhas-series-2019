@@ -1,11 +1,42 @@
-<!-- 
-  Exercício 4: marcar elementos do texto; estilizar utilizando: color, background-color, font-family, font-size, text-align, text-shadow, line-height.
- -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<title>Tipografia</title>
+<link href="https://fonts.googleapis.com/css?family=Oxygen|PT+Sans+Narrow&display=swap" rel="stylesheet">
+<style>
+  ::selection{
+    color: #FCEAFF;
+    background-color: #382B47;
+  }
+.titulo{
+  color: #00B6FF;
+  background-color: #6F7DE7;
+  text-align: center;
+  font-size: 48px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-shadow: 2px 2px #000;
+}
+.texto{
+  color:#3890FF;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: 'Oxygen', sans-serif;
+}
+</style>
 
-Tipografia
+</head>
+<body>
+  <!-- 
+    Exercício 4: marcar elementos do texto; estilizar utilizando: color, background-color, font-family, font-size, text-align, text-shadow, line-height.
+   -->
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!
+  <h1 class="titulo">Tipografia</h1>
 
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!
-
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt
+  <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!</p>
+  
+      <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt!</p>
+  
+      <p class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam explicabo eligendi sequi vel deleniti libero unde accusamus reiciendis enim, tenetur, qui, omnis aspernatur quasi rerum harum temporibus aperiam voluptates deserunt</p>
+</body>
+</html>

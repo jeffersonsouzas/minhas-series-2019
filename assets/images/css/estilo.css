@@ -1,0 +1,54 @@
+/* Header */
+.header{
+  background-color: #C0392B;
+}
+.header--title{
+  color: white;
+  text-shadow: 1px 1px 2px #000000;
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px
+}
+.header--title-bgwhite{
+  color: #C0392B;
+  background-color: white;
+}
+/* serie cover main page */
+.serie{
+  text-align: center;
+}
+.serie--title{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 28px;
+}
+.serie--genre{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  color: #a9a9a9;
+  display: block;
+}
+.serie--image{
+display: block;
+max-width: 328px;
+}
+.serie--readmore{
+  color: white;
+  background-color: #C0392B;
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  display: block;
+}
+.serie--readmore:hover{
+  background-color: #E74C3C;
+}
+
+/* Footer */
+.footer{
+  background-color: #EEEEEE;
+  color: #C0392B;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+}
+.footer--image{
+  width: 25px;
+  height: 25px;
+}
